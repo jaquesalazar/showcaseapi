@@ -1,0 +1,63 @@
+.app-container {
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: #f5f5f5; 
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.app-title {
+    text-align: center;
+    color: #d40000; 
+    margin-bottom: 20px; 
+    font-size: 2.5em; 
+}
+
+.section-divider {
+    background-color: #ffffff; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px; 
+    margin-bottom: 20px; 
+    transition: transform 0.3s; 
+}
+
+.section-divider:hover {
+    transform: scale(1.02); 
+}
+
+.section-title {
+    color: #ee5f00; 
+    margin-bottom: 15px; 
+    font-size: 1.8em; 
+    text-align: center; 
+}
+
+.section-divider p {
+    color: #555; 
+    line-height: 1.6; 
+}
+
+
+.fetch-joke-button {
+    margin-top: 15px;
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745; 
+    color: white; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.fetch-joke-button:hover {
+    background-color: #218838; 
+}
+
+.section-divider {
+    border: none; 
+    height: 1px; 
+    background-color: #a4c5e9; 
+    margin: 20px 0; 
+    border-radius: 5px; 
+}
